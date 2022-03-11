@@ -32,6 +32,8 @@ $intervalMinutes = 5; // interval in minutes
 
 \PHPBook\Scheduler\Task::register($taskName, $taskCommand, $intervalMinutes); // register the task
 
+\PHPBook\Scheduler\Task::register($taskName, $taskCommand, $intervalMinutes); // register or update the task
+
 \PHPBook\Scheduler\Task::remove($taskName); // remove the task by the task name
 
 ?>
